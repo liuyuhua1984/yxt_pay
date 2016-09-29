@@ -41,21 +41,11 @@
 				<input id="openid" type="hidden" name="openid" value=<?php  echo isset($openId) ? $openId : 0; ?> />
 					
 				<ul>
+<!-- -月收一个月的钱, -学期收5个月的钱,一年收10个月的钱-->
 					<li><span>开通/续费时长：</span><select onchange="jnmoney(this)">
-							<option value="1">一月</option>
-							<option value="2">二月</option>
-							<option value="3">三月</option>
-							<option value="4">四月</option>
-							<option value="5">五月</option>
-							<option value="6">六月</option>
-							<option value="7">七月</option>
-							<option value="8">八月</option>
-							<option value="9">九月</option>
-							<option value="10">十月</option>
-							<option value="11">十一月</option>
-							<option value="12">一年</option>
-							<option value="24">两年</option>
-					        <option value="36">三年</option>
+						<option value="1">一月</option>
+							<option value="5">一学期</option>
+							<option value="10">一年</option>
 					</select></li>
 					<!--  
 					<li><span>其他：</span><input id="pay_other" type="number" value="15"   maxlength="10"  

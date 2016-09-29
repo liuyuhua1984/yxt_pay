@@ -38,6 +38,7 @@ if (isset($_REQUEST["bill_date"])&&$_REQUEST["bill_date"]!=""){
 			<input type="submit" value="下载订单"
 				style="width: 210px; height: 50px; border-radius: 15px; background-color: #FE6714; border: 0px #FE6714 solid; cursor: pointer; color: white; font-size: 16px;"
 				type="button" onclick="callpay()" />
+				
 		</div>
 	</form>
 </body>
