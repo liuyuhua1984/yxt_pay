@@ -52,11 +52,13 @@
 						class="input"><span>月</span></li>
 						-->
 					<li><span>您应支付：</span> <input id="jnjine" type="number" name="gold" maxlength="10"
-						value="30" class="input" readonly="readonly"> <span>元</span></li>
+						value="30" class="input" readonly> <span>元</span></li>
 				</ul>
 				
 			<div class="ok-ok">
-				<a onclick="zaixianchongzhi()">确定</a>
+				<a onclick="zaixianchongzhi()" style=" display:inline-block; margin-left:20%;">确定</a>
+				
+				<a href="javascript:history.go(-1)" style="display:inline-block; margin-left:10%;">返回</a>
 			</div>
 				<!--  
 				<input type="submit" value="确定"
