@@ -21,10 +21,10 @@ class WxPayConfig{
 	*
 	* @var string
 	*/
-	const APPID='wx7b7e0a7b05bc6fcb';
-	const MCHID='1374997102';
-	const KEY='fa5cba41e1d493be744c97d7fa3d0d12';
-	const APPSECRET='fa35469a90c8d69f98f24a041fd67376';
+	const APPID='wx7b7e0a7b05bc6fcbs';
+	const MCHID='1374998297102';
+	const KEY='fa5cba41e1d493bedwd744c97d7fa3d0d12';
+	const APPSECRET='fa35469a9w0c8dewwd69f98f24a041fd67376';
 
 	// =======【证书路径设置】=====================================
 	/**
@@ -61,10 +61,10 @@ class WxPayConfig{
 	const MYSQL_HOST="127.0.0.1";
 	const MYSQL_PORT="3536";
 	const SQL_USER="root";
-	const SQL_WD="75A4Ykwu9fW@";
-	const DB_NAME="yxt_pay";
-	const MD_KEY="75A4Ykwu9fW@";
-	const CALL_BACK_URL='http://www.cqsins.com/yxt/parentmyhome/vipchongzhidate.x';
+	const SQL_WD="11111111";
+	const DB_NAME="xswww";
+	const MD_KEY="1111111111";
+	const CALL_BACK_URL='http://xxxxxx/yxt/parentmyhome/vipchongzhidate.x';
 	/**
 	 * 正式修改test=normal
 	 */

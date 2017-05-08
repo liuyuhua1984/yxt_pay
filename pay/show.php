@@ -6,8 +6,6 @@
 <title>会员支付</title>
 <link rel="stylesheet" type="text/css" href="../css/dase.css">
 <link rel="stylesheet" type="text/css" href="../css/pagare.css">
-
-
 <script type="text/javascript" src="../js/chongzhi.js"></script>
 <script type="text/javascript" src="../js/MD5.js"></script>
 <script src="../js/jquery-1.11.3.min.js"></script>
